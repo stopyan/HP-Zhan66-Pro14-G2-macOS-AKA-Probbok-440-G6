@@ -12,9 +12,9 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
 | 处理器 | Intel i5-8265U |
 | 内存     | Kingston 8GB DDR4 2400MHz |
 | 硬盘     | SK hynix 512GB NVMExpress |
-| 集成显卡 | Intel UHD Graphics 620 Whiskey Lake |
+| 集成显卡 | Intel UHD Graphics 620 |
 | 独立显卡 | Nvidia MX250 |
-| 显示器   | 内建显示器 13.9 - 英寸 (1920 x 1080) |
+| 显示器   | 内建显示器 13.9 - 英寸 |
 | 声卡     | Realtek ALC236  |
 | 网卡     | DW1830 |
 
