@@ -8,7 +8,7 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
 
 | 规格     | 详细信息 |
 | -------- | ---------------------------------------- |
-| 电脑型号 | HP-Zhan66-Pro-14-G2 |
+| 电脑型号 | HP-Zhan66-Pro14-G2 |
 | 处理器 | Intel i5-8265U |
 | 内存     | Kingston 8GB DDR4 2400MHz |
 | 硬盘     | SK hynix 512GB NVMExpress |
