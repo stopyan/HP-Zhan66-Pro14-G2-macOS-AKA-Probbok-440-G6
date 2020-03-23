@@ -21,17 +21,15 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
 
 ## 详情
 
-<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ Open Core 版本：0.5.6</b>
+<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ Open Core 版本：0.5.7</b>
 
 <b>正常工作项说明</b>
 
-- boot-args: `-v` 请按需选择是否保留
 - <b>亮度调节按键 Shift+F2 | Shift+F3</b>
 - 可使用[HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/HIDPI)开启高清分辨率支持
 - 可使用[ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)修复3.5mm耳机爆音问题
 - 可使用OpenCore官方推荐的轻量级编辑器[ProperTree](https://github.com/corpnewt/ProperTree)修改config.plist文件
-- 网卡驱动只支持DW1830.
-  - DW1820A 参阅：[Lenovo 小新 Air13IWL 进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)
+- DW1820A 参阅：[Lenovo 小新 Air13IWL 进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)
 -  USB无线网卡驱动
    - 参阅：[Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) 
 
@@ -41,14 +39,10 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
   - 已注入设备属性 `disable-external-gpu` 禁用此设备减少电量消耗
 - 读卡器
 - 指纹传感器
-- Intel 无线网卡&蓝牙
-- SystemSerialNumber & MLB 请在config.plst相关条目下自行添加，以正常使用 App Store & iMessage
+- Intel 无线网卡 & 蓝牙
+- SystemSerialNumber 等字段请在 config.plst 相关条目下自行添加，以正常使用 App Store 等服务.
   - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
   - 命令：`./macserial -m MacBookPro15,2`
-- <b>首次开机触摸板不可用，清除缓存后重启</b>
-  - 挂载系统分区为可写模式 : `sudo mount -uw /`
-  - 重启 Finder : `killall Finder`
-  - 重建缓存 : `sudo kextcache -i /`
 
 ## 资料
 
@@ -58,7 +52,7 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
 
 -  ACIP hotpatch 修补
    - 参阅：[OC-little By 宪武](https://github.com/daliansky/OC-little)
-   - 感谢 <b>@宪武</b> 重写电池部分hotpatch，并对各项配置进行排错
+   - 感谢 <b>@宪武</b> 重写电池部分 hotpatch ，并对各项配置进行排错
 
 ## 许可证声明
 
