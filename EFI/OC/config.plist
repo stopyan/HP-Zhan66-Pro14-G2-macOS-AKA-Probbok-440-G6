@@ -150,6 +150,14 @@
 				<key>Path</key>
 				<string>SSDT-TPXX.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DGPU-OFF.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -537,8 +545,6 @@
 				<data>AACbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
