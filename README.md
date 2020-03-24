@@ -1,6 +1,6 @@
 # HP-Zhan66-Pro14-G2-macOS
 
-This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2. 
+This repository provides OpenCore & Clover configuration files for HP-Zhan66-Pro14-G2. 
 
 [![release](https://img.shields.io/badge/下载-release-blue.svg)](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/releases) 
 
@@ -21,7 +21,7 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
 
 ## 详情
 
-<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ Open Core 版本：0.5.7</b>
+<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ Open Core 版本：0.5.7｜ Clover 版本：v5107 </b>
 
 <b>正常工作项说明</b>
 
