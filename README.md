@@ -36,7 +36,7 @@ This repository provides OpenCore configuration files for HP-Zhan66-Pro14-G2.
 <b>不正常工作项说明</b>
 
 - 独立显卡
-  - 已注入设备属性 `disable-external-gpu` 禁用此设备减少电量消耗
+  - 已使用 hotpatch 禁用此设备减少电量消耗
 - 读卡器
 - 指纹传感器
 - Intel WiFi & 蓝牙
