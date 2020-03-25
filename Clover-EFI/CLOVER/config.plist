@@ -260,7 +260,7 @@
 		<key>AppleIntelCPUPM</key>
 		<false/>
 		<key>AppleRTC</key>
-		<false/>
+		<true/>
 		<key>KernelPm</key>
 		<true/>
 	</dict>
