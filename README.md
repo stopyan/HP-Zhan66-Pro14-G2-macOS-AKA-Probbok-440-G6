@@ -21,7 +21,7 @@ This repository provides OpenCore & Clover configuration files for HP-Zhan66-Pro
 
 ## 详情
 
-<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ Open Core 版本：0.5.7｜ Clover 版本：v5107 </b>
+<b>系统版本：macOS Catalina 10.15.4 (19E266)｜ Open Core 版本：0.5.7｜ Clover 版本：v5107 </b>
 
 <b>正常工作项说明</b>
 
