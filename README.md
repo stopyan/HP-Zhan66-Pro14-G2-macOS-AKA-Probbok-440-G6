@@ -1,13 +1,11 @@
 # HP-Zhan66-Pro14-G2-macOS
 
-This repository provides OpenCore & Clover configuration files for HP-Zhan66-Pro14-G2. 
-
-[![release](https://img.shields.io/badge/下载-release-blue.svg)](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/releases) 
+[The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore & Clover configuration files for HP-Zhan66-Pro14-G2. 
 
 ## 电脑配置
 
 | 规格     | 详细信息 |
-| -------- | ---------------------------------------- |
+| -------- | ------- |
 | 电脑型号 | HP-Zhan66-Pro14-G2 |
 | 处理器 | Intel i5-8265U |
 | 内存     | Kingston 8GB DDR4 2400MHz |
@@ -21,14 +19,12 @@ This repository provides OpenCore & Clover configuration files for HP-Zhan66-Pro
 
 ## 详情
 
-<b>系统版本：macOS Catalina 10.15.4 (19E266)｜ Open Core 版本：0.5.7｜ Clover 版本：v5107 </b>
-
 <b>正常工作项说明</b>
 
 - <b>亮度调节按键 Shift+F2 | Shift+F3</b>
 - 可使用 [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/HIDPI) 开启高清分辨率支持
 - 可使用 [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix) 修复 3.5mm 耳机爆音问题
-- 可使用 acidanthera 推荐的轻量级编辑器 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist 文件
+- 可使用 **acidanthera** 推荐的轻量级编辑器 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist 文件
 - DW1820A 参阅：[Lenovo 小新 Air13IWL 进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)
 -  USB 无线网卡驱动
    - 参阅：[Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) 
@@ -36,13 +32,15 @@ This repository provides OpenCore & Clover configuration files for HP-Zhan66-Pro
 <b>不正常工作项说明</b>
 
 - 独立显卡
+  
   - 已使用 hotpatch 禁用此设备减少电量消耗
 - 读卡器
 - 指纹传感器
 - Intel WiFi & 蓝牙
-- SystemSerialNumber 等字段请在 config.plst 相关条目下自行添加，以正常使用 App Store 等服务.
+-  `MLB` 等字段请在 config.plst 相关条目下自行添加，以正常使用 App Store 等服务.
+  
   - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
-  - 命令：`./macserial -m MacBookPro15,2`
+  
 
 ## 资料
 
@@ -51,7 +49,7 @@ This repository provides OpenCore & Clover configuration files for HP-Zhan66-Pro
    - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
 
 -  ACIP hotpatch 修补
-   - 参阅：[OC-little By 宪武](https://github.com/daliansky/OC-little)
+   - 参阅：[OC-little](https://github.com/daliansky/OC-little)
    - 感谢 <b>@宪武</b> 重写电池部分 hotpatch ，并对各项配置进行排错
 
 ## 许可证声明
