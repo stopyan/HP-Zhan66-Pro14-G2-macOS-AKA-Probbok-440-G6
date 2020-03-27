@@ -1,6 +1,6 @@
 # HP-Zhan66-Pro14-G2-macOS
 
-[The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore & Clover configuration files for HP-Zhan66-Pro14-G2. 
+[The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore configuration files for HP-Zhan66-Pro14-G2. 
 
 ## 电脑配置
 
