@@ -488,9 +488,9 @@
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<false/>
+			<true/>
 			<key>ResetLogoStatus</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -1234,7 +1234,7 @@
 			</array>
 		</dict>
 		<key>WriteFlash</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>

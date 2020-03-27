@@ -22,8 +22,8 @@
 <b>正常工作项说明</b>
 
 - <b>亮度调节按键 Shift+F2 | Shift+F3</b>
-- 可使用 [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/HIDPI) 开启高清分辨率支持
-- 可使用 [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix) 修复 3.5mm 耳机爆音问题
+- 可使用 [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI) 开启高清分辨率支持
+- 可使用 [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix) 修复 3.5mm 耳机爆音问题
 - 可使用 **acidanthera** 推荐的轻量级编辑器 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist 文件
 - DW1820A 参阅：[Lenovo 小新 Air13IWL 进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)
 -  USB 无线网卡驱动
