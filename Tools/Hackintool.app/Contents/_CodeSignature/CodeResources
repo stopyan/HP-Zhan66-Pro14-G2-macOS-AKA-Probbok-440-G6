@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		Wg/aJGTmkzxQFycMmeX+2Cy4YBA=
+		zYvxfIAsYReU0Lt08eAXS5JEGnw=
 		</data>
 		<key>Resources/Audio/Codecs.plist</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
-		UKvUHXZ/xjllT1p/ahvIgFGYmFU=
+		eKYL/zTZsh6cW0hg4H/VDaEqngE=
 		</data>
 		<key>Resources/Clover/config_patches.plist</key>
 		<data>
@@ -1140,10 +1140,6 @@
 		<data>
 		ASbqVD6jc7ocdJd3uTW7NyijDws=
 		</data>
-		<key>Resources/USB/Sleep.plist</key>
-		<data>
-		FmmnhGsC6YgN5vwY76hp5pRFPFA=
-		</data>
 		<key>Resources/USB/USBInjectAll-Info.plist</key>
 		<data>
 		ezOJotsQoBevkoDmtFGqyDUbv+A=
@@ -1320,11 +1316,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wg/aJGTmkzxQFycMmeX+2Cy4YBA=
+			zYvxfIAsYReU0Lt08eAXS5JEGnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			CPQx/nPF+hmtUlUr1fB8NNoEEHbZRknWQuyA/ODoC8c=
+			u9mPaaQRr2kPJnwRwlML82cx3U1C9vMB5LaMaex5dqs=
 			</data>
 		</dict>
 		<key>Resources/Audio/Codecs.plist</key>
@@ -1419,11 +1415,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UKvUHXZ/xjllT1p/ahvIgFGYmFU=
+			eKYL/zTZsh6cW0hg4H/VDaEqngE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FYhn8W71+LAbR5sjFO846vLT9xFsoiSslMyLfJPpODE=
+			z6VodkEKu3ZiExMCZONyeISlbxl+FKwXK9OTdn+634c=
 			</data>
 		</dict>
 		<key>Resources/Clover/config_patches.plist</key>
@@ -4101,17 +4097,6 @@
 			<key>hash2</key>
 			<data>
 			TJkYKJKnPIlWo54ox4k/z7oiHWoDDIK5lapc3fAH2NI=
-			</data>
-		</dict>
-		<key>Resources/USB/Sleep.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FmmnhGsC6YgN5vwY76hp5pRFPFA=
-			</data>
-			<key>hash2</key>
-			<data>
-			Bc3neEBAWFdncxz2EVt5POlWl8U4KydM8VycfeAk9OU=
 			</data>
 		</dict>
 		<key>Resources/USB/USBInjectAll-Info.plist</key>
