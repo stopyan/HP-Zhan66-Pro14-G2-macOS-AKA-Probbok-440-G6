@@ -150,6 +150,14 @@
 				<key>Path</key>
 				<string>SSDT-DGPU-OFF.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RMCF-PS2Map.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -867,13 +875,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>ApplePS2Controller.kext</string>
+				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/ApplePS2Controller</string>
+				<string>Contents/MacOS/VoodooPS2Controller</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -883,13 +891,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>ApplePS2Keyboard.kext</string>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/ApplePS2Keyboard</string>
+				<string>Contents/MacOS/VoodooPS2Keyboard</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
