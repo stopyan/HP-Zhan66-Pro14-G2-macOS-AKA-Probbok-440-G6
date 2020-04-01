@@ -540,6 +540,11 @@
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>compatible</key>
+				<string>pci8086,9ded</string>
+			</dict>
 		</dict>
 		<key>Block</key>
 		<dict>
