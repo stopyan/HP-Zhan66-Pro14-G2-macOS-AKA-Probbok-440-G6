@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		zYvxfIAsYReU0Lt08eAXS5JEGnw=
+		hmEIE4G8TMPXnQtJsVgtTCWT+ek=
 		</data>
 		<key>Resources/Audio/Codecs.plist</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
-		eKYL/zTZsh6cW0hg4H/VDaEqngE=
+		1T+bg0dyvoZ2t2IOtU9DEM+AKcI=
 		</data>
 		<key>Resources/Clover/config_patches.plist</key>
 		<data>
@@ -603,6 +603,14 @@
 		<key>Resources/IconInfo@2x.png</key>
 		<data>
 		Cj39IMQlmA4kvevVSLS2ye36n38=
+		</data>
+		<key>Resources/IconInject.png</key>
+		<data>
+		oDyL4kFvsgJEhxK0+NjYkUlTmLM=
+		</data>
+		<key>Resources/IconInject@2x.png</key>
+		<data>
+		17uqvMVcUpkA+rHiMi6tDfDwx0A=
 		</data>
 		<key>Resources/IconInstalled.png</key>
 		<data>
@@ -1316,11 +1324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zYvxfIAsYReU0Lt08eAXS5JEGnw=
+			hmEIE4G8TMPXnQtJsVgtTCWT+ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			u9mPaaQRr2kPJnwRwlML82cx3U1C9vMB5LaMaex5dqs=
+			HPYfMCQmkSkEVPJxcwwwYiZuog7wFTtPUYKWWG9Hw9E=
 			</data>
 		</dict>
 		<key>Resources/Audio/Codecs.plist</key>
@@ -1415,11 +1423,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eKYL/zTZsh6cW0hg4H/VDaEqngE=
+			1T+bg0dyvoZ2t2IOtU9DEM+AKcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			z6VodkEKu3ZiExMCZONyeISlbxl+FKwXK9OTdn+634c=
+			kglTYiiV7/RgX33QOD4xNq5QCwecDB1iGgy0R/dBRa8=
 			</data>
 		</dict>
 		<key>Resources/Clover/config_patches.plist</key>
@@ -2623,6 +2631,28 @@
 			<key>hash2</key>
 			<data>
 			/lHDquN5yzG5C4OrFm4CdmB+SzzICzDp50vNJrhq4Xk=
+			</data>
+		</dict>
+		<key>Resources/IconInject.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oDyL4kFvsgJEhxK0+NjYkUlTmLM=
+			</data>
+			<key>hash2</key>
+			<data>
+			O4OLtkyk0e4arZF6/UyW2MFBg0EX7YutOnuq1o9fh14=
+			</data>
+		</dict>
+		<key>Resources/IconInject@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			17uqvMVcUpkA+rHiMi6tDfDwx0A=
+			</data>
+			<key>hash2</key>
+			<data>
+			yFbeTOYvLOu26P9wmMAdWj4vOybK2I+izMuzjzsrbWs=
 			</data>
 		</dict>
 		<key>Resources/IconInstalled.png</key>
