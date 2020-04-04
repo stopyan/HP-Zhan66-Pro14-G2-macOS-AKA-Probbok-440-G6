@@ -484,6 +484,8 @@
 			<false/>
 			<key>DiscardHibernateMap</key>
 			<false/>
+			<key>EnableForAll</key>
+			<false/>
 			<key>EnableSafeModeSlide</key>
 			<false/>
 			<key>EnableWriteUnprotector</key>
@@ -498,14 +500,14 @@
 			<true/>
 			<key>ProvideCustomSlide</key>
 			<false/>
+			<key>RebuildAppleMemoryMap</key>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
