@@ -1118,6 +1118,8 @@
 			<true/>
 			<key>HideSelf</key>
 			<false/>
+			<key>ConsoleAttributes</key>
+			<integer>0</integer>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
