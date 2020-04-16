@@ -17,7 +17,7 @@
 | 网卡     | Broadcom DW1830 (Dell) |
 
 
-## NotWorking
+## 无法工作
 
 - SD Card
 - Intel AC9560
