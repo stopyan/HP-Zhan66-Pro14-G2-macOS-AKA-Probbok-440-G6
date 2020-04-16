@@ -43,17 +43,28 @@
 
 -  OpenCore
    - 参阅：[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+   - 参阅：[OpenCore 简体中文参考手册](https://oc.skk.moe/)
    - 参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
-   - 参阅：[在线安装 macOS](https://github.com/cattyhouse/oc-guide/blob/master/oc-dmg-install.md)
+   - 参阅：[Clover 迁移 OpenCore 指南](https://blog.skk.moe/post/from-clover-to-opencore/)
+   - 参阅：[Recovery 下在线安装 macOS](https://github.com/cattyhouse/oc-guide/blob/master/oc-dmg-install.md)
 
 -  Clover
    - 参阅：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 
 -  OcQuirks
    - 参阅：[OcQuirks](https://github.com/ReddestDream/OcQuirks)
+   - 参阅：[OcQuirks 修复 Clover 内存分配](https://blog.skk.moe/post/time-to-use-ocquirks/)
 
--  ACIP hotpatch 修补
+-  OC-little
    - 参阅：[OC-little](https://github.com/daliansky/OC-little)
+
+-  Tools
+   - [Kexts](https://kext.skk.moe/)
+   - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
+   - [ProperTree](https://github.com/corpnewt/ProperTree)
+   - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+   - [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
+   
 
 
 ## 许可证声明
