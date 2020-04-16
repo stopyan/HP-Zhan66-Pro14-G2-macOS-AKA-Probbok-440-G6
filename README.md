@@ -19,25 +19,12 @@
 
 ## 详情
 
-<b>正常工作项说明</b>
+<b>不工作硬件</b>
 
-- <b>亮度调节按键 FN+F3 | FN+F4</b>
-- 使用 [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI) 开启高清分辨率支持
-- 使用 [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix) 修复 3.5mm 耳机爆音
-- 使用 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist
-
-<b>不正常工作项说明</b>
-
-- 独立显卡
-  
-  - 已使用 hotpatch 禁用此设备减少电量消耗
-- 读卡器
-- 指纹传感器
-- Intel WiFi & 蓝牙
--  `MLB` 等字段请在 config.plst 相关条目下自行添加，以正常使用 App Store 等服务.
-  
-  - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
-  
+- SD Card
+- Intel AC9560
+- Nvidia MX250
+- Fingerprint sensor
 
 ## 资料
 
@@ -64,12 +51,14 @@
    - [ProperTree](https://github.com/corpnewt/ProperTree)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
+   - [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI)
+   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix)
    
 
 
 ## 许可证声明
 
 - Copyright (c) 2016-2017, The HermitCrabs Lab
-- Copyright (c) 2016-2019, Download-Fritz
-- Copyright (c) 2017-2019, savvas
-- Copyright (c) 2016-2019, vit9696
+- Copyright (c) 2016-2020, Download-Fritz
+- Copyright (c) 2017-2020, savvas
+- Copyright (c) 2016-2020, vit9696
