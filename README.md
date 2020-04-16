@@ -45,15 +45,13 @@
 
 -  Tools
    - [Kexts](https://kext.skk.moe/)
+   - [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI)
+   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [ProperTree](https://github.com/corpnewt/ProperTree)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
-   - [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI)
-   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix)
    
-
-
 ## 许可证声明
 
 - Copyright (c) 2016-2017, The HermitCrabs Lab
