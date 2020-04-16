@@ -21,13 +21,10 @@
 
 <b>正常工作项说明</b>
 
-- <b>亮度调节按键 FN+F2 | FN+F3</b>
-- 可使用 [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI) 开启高清分辨率支持
-- 可使用 [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix) 修复 3.5mm 耳机爆音问题
-- 可使用 `acidanthera` 推荐的轻量级编辑器 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist 文件
-- DW1820A 参阅：[Lenovo 小新 Air13IWL 进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)
--  USB 无线网卡驱动
-   - 参阅：[Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) 
+- <b>亮度调节按键 FN+F3 | FN+F4</b>
+- 使用 [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI) 开启高清分辨率支持
+- 使用 [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix) 修复 3.5mm 耳机爆音
+- 使用 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist
 
 <b>不正常工作项说明</b>
 
@@ -46,11 +43,18 @@
 
 -  OpenCore
    - 参阅：[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
-   - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
+   - 参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
+   - 参阅：[在线安装 macOS](https://github.com/cattyhouse/oc-guide/blob/master/oc-dmg-install.md)
+
+-  Clover
+   - 参阅：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
+
+-  OcQuirks
+   - 参阅：[OcQuirks](https://github.com/ReddestDream/OcQuirks)
 
 -  ACIP hotpatch 修补
    - 参阅：[OC-little](https://github.com/daliansky/OC-little)
-   - 感谢 <b>@宪武</b> 重写电池部分 hotpatch ，并对各项配置进行排错
+
 
 ## 许可证声明
 
