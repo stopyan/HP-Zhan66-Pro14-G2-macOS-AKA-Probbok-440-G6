@@ -4,7 +4,7 @@
 
 ## 电脑配置
 
-| 规格     | 详细信息 |
+| 规格      | 详细信息 |
 | -------- | ------- |
 | 电脑型号 | HP-Zhan66-Pro14-G2 |
 | 处理器 | Intel i5-8265U |
@@ -45,8 +45,8 @@
 
 -  Tools
    - [Kexts](https://kext.skk.moe/)
-   - [HIDPI](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/HIDPI)
-   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Tools/ALCPlugFix)
+   - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
+   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [ProperTree](https://github.com/corpnewt/ProperTree)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
