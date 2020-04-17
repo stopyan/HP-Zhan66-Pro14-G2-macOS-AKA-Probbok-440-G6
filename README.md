@@ -46,7 +46,7 @@
 -  Tools
    - [Kexts](https://kext.skk.moe/)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
-   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/ALCPlugFix)
+   - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [ProperTree](https://github.com/corpnewt/ProperTree)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
