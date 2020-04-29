@@ -7,12 +7,12 @@
 | 规格      | 详细信息 |
 | -------- | ------- |
 | 电脑型号 | HP-Zhan66-Pro14-G2 |
-| 处理器 | Intel i5-8265U |
+| 处理器   | Intel i5-8265U |
 | 内存     | Kingston 8GB DDR4 2400MHz |
 | 硬盘     | SK hynix 512GB NVMExpress |
-| 集成显卡 | Intel UHD Graphics 620 |
-| 独立显卡 | Nvidia MX250 |
-| 显示器   | 内建显示器 13.9 - 英寸 |
+| 集成显卡  | Intel UHD Graphics 620 |
+| 独立显卡  | Nvidia MX250 |
+| 显示器    | 内建显示器 13.9 - 英寸 |
 | 声卡     | Realtek ALC236 |
 | 网卡     | Broadcom DW1830 (Dell) |
 
@@ -46,6 +46,7 @@
 -  Tools
    - [Kexts](https://kext.skk.moe/)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
+   - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [ProperTree](https://github.com/corpnewt/ProperTree)
