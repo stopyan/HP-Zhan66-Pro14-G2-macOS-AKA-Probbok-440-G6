@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19E287</string>
+	<string>18E226</string>
 	<key>CFBundleExecutable</key>
 	<string>BrcmPatchRAM3</string>
 	<key>CFBundleIdentifier</key>
@@ -27,17 +27,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E503a</string>
+	<string>10E1001</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>19E258</string>
+	<string>18E219</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx10.14</string>
 	<key>DTXcode</key>
-	<string>1141</string>
+	<string>1020</string>
 	<key>DTXcodeBuild</key>
-	<string>11E503a</string>
+	<string>10E1001</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>0489_e032</key>
@@ -1370,7 +1370,7 @@
 			<key>DisplayName</key>
 			<string>Dell Wireless 1830 Bluetooth 4.1 LE</string>
 			<key>FirmwareKey</key>
-			<string>BCM20703A1_001.001.005.0214.0481_v4577</string>
+			<string>BCM20703A1_001.001.005.0214.0422_v4518</string>
 			<key>IOClass</key>
 			<string>BrcmPatchRAM3</string>
 			<key>IOMatchCategory</key>
@@ -2110,8 +2110,6 @@
 			<string>disabled_IOResources</string>
 		</dict>
 	</dict>
-	<key>LSMinimumSystemVersion</key>
-	<string>10.9</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>as.acidanthera.BrcmFirmwareStore</key>

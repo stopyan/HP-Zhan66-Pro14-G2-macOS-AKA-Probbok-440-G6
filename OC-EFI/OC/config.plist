@@ -1516,6 +1516,7 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>HPFanReset.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
