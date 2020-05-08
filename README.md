@@ -33,6 +33,9 @@
    - 参阅：[Clover 迁移 OpenCore 指南](https://blog.skk.moe/post/from-clover-to-opencore/)
    - 参阅：[Recovery 下在线安装 macOS](https://github.com/cattyhouse/oc-guide/blob/master/oc-dmg-install.md)
 
+- n-d-k/OpenCorePkg
+   - 参阅：[n-d-k/OpenCorePkg](https://github.com/n-d-k/OpenCorePkg)
+
 -  Clover
    - 参阅：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 
@@ -47,6 +50,7 @@
    - [Kexts](https://kext.skk.moe/)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
    - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+   - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [ProperTree](https://github.com/corpnewt/ProperTree)

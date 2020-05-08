@@ -13,5 +13,5 @@
 
 ### Credits
 
-- `One-Key-UnlockTDP`  By  [@stopyan](https://github.com/stopyan)
+- `One-Key-UnlockTDP` made by [@stopyan](https://github.com/stopyan)
 - 性能释放效果取决于机器散热情况
