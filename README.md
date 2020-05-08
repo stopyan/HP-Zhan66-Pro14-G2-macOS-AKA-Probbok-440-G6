@@ -19,10 +19,10 @@
 
 ## 无法工作
 
-- SD Card
-- Intel AC9560
-- Nvidia MX250
-- Fingerprint sensor
+- ~~SD Card~~ （已屏蔽）
+- ~~Intel AC9560~~（已更换 Broadcom DW1830）
+- ~~Nvidia MX250~~ （已屏蔽）
+- ~~Fingerprint sensor~~ （已屏蔽）
 
 ## 资料
 
@@ -57,7 +57,7 @@
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
    
-## 许可证声明
+## Credits
 
 - Copyright (c) 2016-2017, The HermitCrabs Lab
 - Copyright (c) 2016-2020, Download-Fritz
