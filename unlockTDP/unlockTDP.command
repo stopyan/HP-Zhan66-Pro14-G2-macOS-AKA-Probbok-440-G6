@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo kextload -v /usr/local/share/DirectHW.kext
 
-cd ~/Desktop/Zhan66unlockTDP/Bins
+cd $(dirname $0)/Bins
 sudo ./rdmem 0xfed159A0 16 | xxd -g 1
 echo "\x00\x00\x00\x00\x00\x00\x00\x00\n" |sudo ./wrmem 0xfed159a0 8
 sudo ./rdmem 0xfed159A0 16 | xxd -g 1
@@ -13,4 +13,4 @@ sudo ./voltageshift read 0x1a2
 
 sudo kextunload -v /usr/local/share/DirectHW.kext
 
-echo "done"
+echo "unlockTDP Done!"

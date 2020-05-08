@@ -5,7 +5,7 @@ sudo killall Finder
 sudo mkdir -p /usr/local/lib
 sudo mkdir -p /usr/local/share
 
-cd ~/Desktop/Zhan66unlockTDP/Resources
+cd $(dirname $0)/Resources
 sudo cp -r ./DirectHW.kext /usr/local/share/DirectHW.kext
 sudo cp -r ./DirectHW.framework /Library/Frameworks/DirectHW.framework
 sudo cp -r ./libDirectHW.a /usr/local/lib/libDirectHW.a
@@ -19,4 +19,4 @@ sudo chmod 644 /usr/local/lib/libDirectHW.dylib
 sudo chown -R root:wheel /usr/local/share/DirectHW.kext
 sudo chown -R root:wheel /Library/Frameworks/DirectHW.framework
 
-echo "done"
+echo "Done!"
