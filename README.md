@@ -48,6 +48,7 @@
 
 -  Tools
    - [Kexts](https://kext.skk.moe/)
+   - [EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
    - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
    - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
@@ -63,3 +64,4 @@
 - Copyright (c) 2016-2020, Download-Fritz
 - Copyright (c) 2017-2020, savvas
 - Copyright (c) 2016-2020, vit9696
+
