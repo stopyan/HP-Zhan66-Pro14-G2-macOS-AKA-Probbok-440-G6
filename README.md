@@ -31,7 +31,7 @@
    - 参阅：[OpenCore 简体中文参考手册](https://oc.skk.moe/)
    - 参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
    - 参阅：[Clover 迁移 OpenCore 指南](https://blog.skk.moe/post/from-clover-to-opencore/)
-   - 参阅：[Recovery 下在线安装 macOS](https://github.com/cattyhouse/oc-guide/blob/master/oc-dmg-install.md)
+   - 参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/undefined/65204.html)
 
 - n-d-k/OpenCorePkg
    - 参阅：[n-d-k/OpenCorePkg](https://github.com/n-d-k/OpenCorePkg)
