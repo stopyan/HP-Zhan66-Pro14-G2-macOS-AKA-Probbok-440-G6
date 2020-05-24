@@ -32,20 +32,15 @@
    - 参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
    - 参阅：[Clover 迁移 OpenCore 指南](https://blog.skk.moe/post/from-clover-to-opencore/)
    - 参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/undefined/65204.html)
-
 - n-d-k/OpenCorePkg
    - 参阅：[n-d-k/OpenCorePkg](https://github.com/n-d-k/OpenCorePkg)
-
 -  Clover
    - 参阅：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
-
 -  OcQuirks
    - 参阅：[OcQuirks](https://github.com/ReddestDream/OcQuirks)
    - 参阅：[OcQuirks 修复 Clover 内存分配](https://blog.skk.moe/post/time-to-use-ocquirks/)
-
 -  OC-little
    - 参阅：[OC-little](https://github.com/daliansky/OC-little)
-
 -  Tools
    - [Kexts](https://kext.skk.moe/)
    - [EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
@@ -57,7 +52,9 @@
    - [ProperTree](https://github.com/corpnewt/ProperTree)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
-   
+-  Terminal
+   - [macOS 常用命令](https://chiccheung.gitee.io/undefined/5624.html)
+
 ## Credits
 
 - Copyright (c) 2016-2017, The HermitCrabs Lab

@@ -152,6 +152,8 @@
 		<string>brcmfx-country=#a dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>NeverHibernate</key>
+		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Timeout</key>
@@ -189,6 +191,8 @@
 			<string>No</string>
 		</dict>
 		<key>LANInjection</key>
+		<false/>
+		<key>NoDefaultProperties</key>
 		<false/>
 		<key>Properties</key>
 		<dict>
@@ -246,7 +250,7 @@
 			<false/>
 		</dict>
 		<key>PlayAsync</key>
-		<false/>
+		<true/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -289,22 +293,22 @@
 		<key>MLB</key>
 		<string>C02007101J9JH4RJA</string>
 		<key>ROM</key>
-		<data>osrYOq6n</data>
+		<data>N7hKmpeR</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>03/17/2020</string>
+		<string>04/23/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2003170152</string>
+		<string>MBP152.88Z.F000.B00.2004232118</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02007101J9JH4RJA</string>
+		<string>C02026902GUJH4RAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -316,7 +320,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.100.359.0.0</string>
+		<string>1037.120.79.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -334,17 +338,23 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02C8HYYJHCC</string>
+		<string>C02CXBYYJHCC</string>
 		<key>SmUUID</key>
-		<string>D5A27275-99FF-4BCD-910F-49B0903AAEA7</string>
+		<string>1E788AF4-AA8E-4337-8288-07441F9A9791</string>
+		<key>Trust</key>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>E4E97F68-4C07-4A51-8CBE-3A220052679E</string>
+		<string>DBFF261C-2357-49D7-901F-9128493B5D1B</string>
+		<key>InjectKexts</key>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
+		<true/>
+		<key>NoCaches</key>
 		<true/>
 	</dict>
 </dict>
