@@ -1,6 +1,6 @@
 # HP-Zhan66-Pro14-G2-macOS
 
-[The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore configuration files for HP-Zhan66-Pro14-G2. 
+[The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides configuration files for HP-Zhan66-Pro14-G2. 
 
 ## 电脑配置
 
@@ -50,6 +50,7 @@
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [ProperTree](https://github.com/corpnewt/ProperTree)
+   - [MaciASL](https://github.com/acidanthera/MaciASL)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
 -  Terminal
