@@ -36,6 +36,7 @@
    - 参阅：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 -  Tools
    - [Kexts](https://kext.skk.moe/)
+   - [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
    - [EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
