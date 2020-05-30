@@ -149,11 +149,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 brcmfx-country=#a keepsyms=1 igfxfw=2 igfxonln=1 igfxagdc=0</string>
+		<string>brcmfx-country=#a dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Timeout</key>
@@ -250,7 +250,7 @@
 			<false/>
 		</dict>
 		<key>PlayAsync</key>
-		<false/>
+		<true/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
