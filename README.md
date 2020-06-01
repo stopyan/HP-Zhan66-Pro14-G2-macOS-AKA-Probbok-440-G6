@@ -25,27 +25,33 @@
 
 ## 资料
 
--  OpenCore
-   - 参阅：[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
-   - 参阅：[OpenCore 简体中文参考手册](https://oc.skk.moe/)
-   - 参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/undefined/65204.html)
-   - 参阅：[macOS 常用命令](https://chiccheung.gitee.io/undefined/5624.html)
-   - 参阅：[OC-little](https://github.com/daliansky/OC-little)
-   - 参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
--  Clover
-   - 参阅：[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
+-  OpenCorePkg
+   - 参阅：[acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+
+-  n-d-k/OpenCorePkg
+   -  参阅：[n-d-k/OpenCorePkg](https://github.com/n-d-k/OpenCorePkg)
+-  CloverBootloader
+   - 参阅：[CloverHackyColor/CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
+-  OcQuirks
+   -  参阅：[ReddestDream/OcQuirks](https://github.com/ReddestDream/OcQuirks)
+-  Docs
+   -  参阅：[OpenCore 简体中文参考手册](https://oc.skk.moe/)
+   -  参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
+   -  参阅：[daliansky/OC-little](https://github.com/daliansky/OC-little)
+   -  参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/undefined/65204.html)
+   -  参阅：[macOS 常用命令](https://chiccheung.gitee.io/undefined/5624.html)
 -  Tools
-   - [Kexts](https://kext.skk.moe/)
-   - [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
-   - [EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
+   - [Sukka/Kexts](https://kext.skk.moe/)
+   - [VoodooI2C/VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
+   - [Sniki/EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
+   - [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree)
+   - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+   - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
+   - [acidanthera/MaciASL](https://github.com/acidanthera/MaciASL)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
    - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
    - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
-   - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
-   - [ProperTree](https://github.com/corpnewt/ProperTree)
-   - [MaciASL](https://github.com/acidanthera/MaciASL)
-   - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 
 ## Credits
 
