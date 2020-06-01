@@ -8,20 +8,8 @@
 		<dict>
 			<key>Fixes</key>
 			<dict>
-				<key>AddMCHC</key>
-				<false/>
-				<key>AddPNLF</key>
-				<false/>
-				<key>FixIntelGfx</key>
-				<false/>
-				<key>FixMutex</key>
-				<false/>
 				<key>FixRTC</key>
 				<true/>
-				<key>FixSBUS</key>
-				<false/>
-				<key>FixShutdown</key>
-				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -137,21 +125,15 @@
 				</dict>
 			</array>
 		</dict>
-		<key>SSDT</key>
-		<dict>
-			<key>Generate</key>
-			<dict>
-				<key>PluginType</key>
-				<false/>
-			</dict>
-		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>brcmfx-country=#a dart=0</string>
+		<string>brcmfx-country=#a</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>Legacy</key>
+		<string>LegacyBiosDefault</string>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
@@ -185,11 +167,6 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>Audio</key>
-		<dict>
-			<key>Inject</key>
-			<string>No</string>
-		</dict>
 		<key>LANInjection</key>
 		<false/>
 		<key>NoDefaultProperties</key>
@@ -209,31 +186,28 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>AAClPg==</data>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>pT4AAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
-				<key>enable-lspcon-support</key>
+				<key>force-online</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-busid</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-preferred-lspcon-mode</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>igfxfw</key>
+				<data>AgAAAA==</data>
 			</dict>
-		</dict>
-		<key>USB</key>
-		<dict>
-			<key>Inject</key>
-			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -250,7 +224,7 @@
 			<false/>
 		</dict>
 		<key>PlayAsync</key>
-		<true/>
+		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -290,25 +264,23 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
-		<key>MLB</key>
-		<string>C02007101J9JH4RJA</string>
 		<key>ROM</key>
-		<data>N7hKmpeR</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/23/2020</string>
+		<string>05/13/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2004232118</string>
+		<string>MBP152.88Z.F000.B00.2005132218</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02026902GUJH4RAD</string>
+		<string>C020313034NJH4R8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -320,7 +292,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.120.79.0.0</string>
+		<string>1037.120.87.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -338,23 +310,19 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02CXBYYJHCC</string>
+		<string>C02D5FZHJHCC</string>
 		<key>SmUUID</key>
-		<string>1E788AF4-AA8E-4337-8288-07441F9A9791</string>
-		<key>Trust</key>
-		<true/>
+		<string>DCD24572-BCBA-4058-9724-879126BA1483</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>DBFF261C-2357-49D7-901F-9128493B5D1B</string>
+		<string>A2284256-6E6E-44CE-9CB6-F66DBCA06D8F</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NoCaches</key>
 		<true/>
 	</dict>
 </dict>
