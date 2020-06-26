@@ -28,8 +28,6 @@
 -  OpenCorePkg
    - 参阅：[acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 
--  n-d-k/OpenCorePkg
-   -  参阅：[n-d-k/OpenCorePkg](https://github.com/n-d-k/OpenCorePkg)
 -  CloverBootloader
    - 参阅：[CloverHackyColor/CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 -  OcQuirks
