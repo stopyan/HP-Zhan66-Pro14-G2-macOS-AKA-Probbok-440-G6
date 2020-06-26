@@ -14,12 +14,12 @@
 | 独立显卡  | Nvidia MX250 |
 | 显示器    | 内建显示器 13.9 - 英寸 |
 | 声卡     | Realtek ALC236 |
-| 网卡     | Broadcom DW1830 (Dell) |
+| 网卡     | Intel AC9560 |
 
 ## 失效硬件
 
+- Intel AC9560
 - ~~SD Card~~ （已屏蔽）
-- ~~Intel AC9560~~（已更换 Broadcom DW1830）
 - ~~Nvidia MX250~~ （已屏蔽）
 - ~~Fingerprint sensor~~ （已屏蔽）
 
