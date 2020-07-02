@@ -18,7 +18,6 @@
 
 ## 失效硬件
 
-- Intel AC9560
 - ~~SD Card~~ （已屏蔽）
 - ~~Nvidia MX250~~ （已屏蔽）
 - ~~Fingerprint sensor~~ （已屏蔽）
@@ -42,14 +41,17 @@
    - [Sukka/Kexts](https://kext.skk.moe/)
    - [VoodooI2C/VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
    - [Sniki/EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
-   - [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree)
-   - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
-   - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
-   - [acidanthera/MaciASL](https://github.com/acidanthera/MaciASL)
+   - [NoTouchID](https://github.com/al3xtjames/NoTouchID)
+   - [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+   - [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware)
+   - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+   - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
    - [HIDPI](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
-   - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
-   - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+   - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
+   - [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree)
+   - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+   - [acidanthera/MaciASL](https://github.com/acidanthera/MaciASL)
 
 ## Credits
 
