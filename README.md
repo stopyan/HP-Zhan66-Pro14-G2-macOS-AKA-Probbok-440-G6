@@ -54,6 +54,7 @@
    - [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree)
    - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [acidanthera/MaciASL](https://github.com/acidanthera/MaciASL)
+   - [IORegistryExplorer](https://github.com/vulgo/IORegistryExplorer)
 
 ## Credits
 
