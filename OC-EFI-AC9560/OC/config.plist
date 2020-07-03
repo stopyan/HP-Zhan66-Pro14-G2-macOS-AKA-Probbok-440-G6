@@ -177,7 +177,7 @@
 				<key>Comment</key>
 				<string>ACEL._STA to XSTA</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -203,11 +203,11 @@
 				<key>Comment</key>
 				<string>GACW to XGAC</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>FCVHQUNX</data>
+				<data>FCVHQQBw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -215,7 +215,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>FCVYR0FD</data>
+				<data>FCVYRwBw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -229,11 +229,11 @@
 				<key>Comment</key>
 				<string>GBAW  to XGAB</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>RQRHQkFX</data>
+				<data>RQRHQgBw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -241,7 +241,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>RQRYR0FC</data>
+				<data>RQRYRwBw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -255,7 +255,7 @@
 				<key>Comment</key>
 				<string>BTIF to XTIF</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -281,11 +281,11 @@
 				<key>Comment</key>
 				<string>BTST to XTST</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>QlRTVAo=</data>
+				<data>QlRTVAp5</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -293,7 +293,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WFRTVAo=</data>
+				<data>WFRTVAp5</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -307,11 +307,11 @@
 				<key>Comment</key>
 				<string>ITLB to XITL</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>TQRJVExC</data>
+				<data>SVRMQgB3</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -319,7 +319,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>TQRYSVRM</data>
+				<data>WElUTAB3</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -333,11 +333,11 @@
 				<key>Comment</key>
 				<string>GBTI to XBTI</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>R0JUSQE=</data>
+				<data>R0JUSQFw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -345,7 +345,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WEJUSQE=</data>
+				<data>WEJUSQFw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -359,11 +359,11 @@
 				<key>Comment</key>
 				<string>GBTC to XGBU</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>QiBHQlRD</data>
+				<data>R0JUQwBw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -371,7 +371,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>QiBYR0JV</data>
+				<data>WEdCVQBw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -385,11 +385,11 @@
 				<key>Comment</key>
 				<string>SBTC to XSBT</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SSZTQlRD</data>
+				<data>U0JUQwNw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -397,7 +397,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>SSZYU0JU</data>
+				<data>WFNCVANw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -411,11 +411,11 @@
 				<key>Comment</key>
 				<string>GCGC to XGCG</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>TwdHQ0dD</data>
+				<data>R0NHQwgI</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -423,7 +423,33 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>TwdYR0NH</data>
+				<data>WEdDRwgI</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Return Zero in _STA of TPD0</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QQCkCg8UM18=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>QQCkCgAUM18=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -450,32 +476,6 @@
 				<data></data>
 				<key>Replace</key>
 				<data>WFBSVwI=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Return Zero in _STA of TPD0</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>QQCkCg8UM18=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>QQCkCgAUM18=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
