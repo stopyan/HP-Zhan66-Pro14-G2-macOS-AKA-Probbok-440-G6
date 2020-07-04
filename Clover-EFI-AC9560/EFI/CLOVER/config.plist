@@ -97,23 +97,23 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>GACW to XGAC</string>
+					<string>GACW to XC12</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FCVHQUNX</data>
+					<data>R0FDVwBw</data>
 					<key>Replace</key>
-					<data>FCVYR0FD</data>
+					<data>WEMxMgBw</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>GBAW  to XGAB</string>
+					<string>GBAW  to XC13</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RQRHQkFX</data>
+					<data>R0JBVwBw</data>
 					<key>Replace</key>
-					<data>RQRYR0FC</data>
+					<data>WEMxMwBw</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -131,9 +131,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>QlRTVAo=</data>
+					<data>QlRTVAp5</data>
 					<key>Replace</key>
-					<data>WFRTVAo=</data>
+					<data>WFRTVAp5</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -141,9 +141,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TQRJVExC</data>
+					<data>SVRMQgB3</data>
 					<key>Replace</key>
-					<data>TQRYSVRM</data>
+					<data>WElUTAB3</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -151,9 +151,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0JUSQE=</data>
+					<data>R0JUSQFw</data>
 					<key>Replace</key>
-					<data>WEJUSQE=</data>
+					<data>WEJUSQFw</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -161,9 +161,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>QiBHQlRD</data>
+					<data>R0JUQwBw</data>
 					<key>Replace</key>
-					<data>QiBYR0JV</data>
+					<data>WEdCVQBw</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -171,9 +171,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SSZTQlRD</data>
+					<data>U0JUQwNw</data>
 					<key>Replace</key>
-					<data>SSZYU0JU</data>
+					<data>WFNCVANw</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -181,9 +181,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TwdHQ0dD</data>
+					<data>R0NHQwgI</data>
 					<key>Replace</key>
-					<data>TwdYR0NH</data>
+					<data>WEdDRwgI</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
