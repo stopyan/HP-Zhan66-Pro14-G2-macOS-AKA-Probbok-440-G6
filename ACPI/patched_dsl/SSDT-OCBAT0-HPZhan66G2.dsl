@@ -1,16 +1,16 @@
 //// battery
 //
 // In config ACPI, ACEL._STA to XSTA
-// Find:    5F535441 00A02D
-// Replace: 58535441 00A02D
+// Find:    5F535441 00A02D93
+// Replace: 58535441 00A02D93
 //
-// In config ACPI, GACW to XGAC
+// In config ACPI, GACW to XC12
 // Find:     47414357 0070
-// Replace:  58474143 0070
+// Replace:  58433132 0070
 //
-// In config ACPI, GBAW  to XGAB
+// In config ACPI, GBAW  to XC13
 // Find:     47424157 0070
-// Replace:  58474142 0070
+// Replace:  58433133 0070
 //
 // In config ACPI, BTIF to XTIF
 // Find:     42544946 0979
@@ -42,137 +42,141 @@
 //
 DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
 {
-    External (_SB.PCI0.LPCB.EC0, DeviceObj)
-    External (_SB.PCI0.LPCB.EC0.BATN, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.BATP, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.BRCC, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.BRCV, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.BSEL, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.BST, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.BSTA, MethodObj)    // 1 Arguments
-    External (_SB.PCI0.LPCB.EC0.BTDR, MethodObj)    // 1 Arguments
-    External (_SB.PCI0.LPCB.EC0.BTIF, MethodObj)    // 1 Arguments
-    External (_SB.PCI0.LPCB.EC0.BTMX, MutexObj)
-    External (_SB.PCI0.LPCB.EC0.ECMX, MutexObj)
-    External (_SB.PCI0.LPCB.EC0.ECRG, IntObj)
-    External (_SB.PCI0.LPCB.EC0.GACS, MethodObj)    // 0 Arguments
-    External (_SB.PCI0.LPCB.EC0.GBMF, MethodObj)    // 0 Arguments
-    External (_SB.PCI0.LPCB.EC0.GBSS, MethodObj)    // 2 Arguments
-    External (_SB.PCI0.LPCB.EC0.GCTL, MethodObj)    // 1 Arguments
-    External (_SB.PCI0.LPCB.EC0.GDCH, MethodObj)    // 1 Arguments
-    External (_SB.PCI0.LPCB.EC0.GDNM, MethodObj)    // 1 Arguments
-    External (_SB.PCI0.LPCB.EC0.IDIS, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.INAC, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.INCH, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.LB1, FieldUnitObj)
-    External (_SB.PCI0.LPCB.EC0.LB2, FieldUnitObj)
-    External (_SB.NBST, PkgObj)
-    External (_SB.NBTI, PkgObj)
-    External (_SB.NDBS, PkgObj)
-    External (_SB.PCI0.LPCB.EC0.NDCB, IntObj)
-    External (_SB.PCI0.LPCB.EC0.NGBF, IntObj)
-    External (_SB.PCI0.LPCB.EC0.NGBT, IntObj)
-    External (_SB.PCI0.LPCB.EC0.NLB1, IntObj)
-    External (_SB.PCI0.LPCB.EC0.NLB2, IntObj)
-    External (_SB.PCI0.LPCB.EC0.NLO2, IntObj)
-    External (_SB.PCI0.LPCB.EC0.PSSB, FieldUnitObj)
-    //
-    External (_SB.PCI0.LPCB.EC0.XGAC, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XGAB, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XTIF, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XTST, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XITL, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XBTI, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XGBU, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XSBT, MethodObj)
-    External (_TZ.XGCG, MethodObj)
-    External (_SB.PCI0.ACEL, DeviceObj)
-    External (_SB.PCI0.ACEL.XSTA, MethodObj)
+    External (_SB_.BTOP, PkgObj)
+    External (_SB_.NBST, PkgObj)
+    External (_SB_.NBTI, PkgObj)
+    External (_SB_.NDBS, PkgObj)
+    External (_SB_.PCI0.ACEL, DeviceObj)
+    External (_SB_.PCI0.ACEL.XSTA, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_, DeviceObj)
+    External (_SB_.PCI0.LPCB.EC0_.BATN, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.BATP, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.BRCC, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.BRCV, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.BSEL, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.BST_, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.BSTA, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.BTDR, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.BTMX, MutexObj)
+    External (_SB_.PCI0.LPCB.EC0_.ECMX, MutexObj)
+    External (_SB_.PCI0.LPCB.EC0_.ECRG, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.GACS, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.GBMF, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.GBSS, MethodObj)    // 2 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.GCTL, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.GDCH, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.GDNM, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.IDIS, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.INAC, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.INCH, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.LB1_, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.LB2_, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.NDCB, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.NGBF, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.NGBT, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.NLB1, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.NLB2, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.NLO2, IntObj)
+    External (_SB_.PCI0.LPCB.EC0_.PSSB, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.PWRS, FieldUnitObj)
+    External (_SB_.PCI0.LPCB.EC0_.XBTI, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XC12, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XC13, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XGBU, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XITL, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XSBT, MethodObj)    // 3 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XTIF, MethodObj)    // 1 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XTST, MethodObj)    // 2 Arguments
+    External (_TZ_.XGCG, MethodObj)    // 0 Arguments
 
     Method (B1B2, 2, NotSerialized)
     {
         Return ((Arg0 | (Arg1 << 0x08)))
     }
 
-    Scope(\_SB.PCI0.ACEL) {
-        Method (_STA, 0, NotSerialized) {
-            If (_OSI("Darwin")) {
+    Scope (\_SB.PCI0.ACEL)
+    {
+        Method (_STA, 0, NotSerialized)  // _STA: Status
+        {
+            If (_OSI ("Darwin"))
+            {
                 Return (Zero)
             }
-            Else {
-                Return(XSTA())
+            Else
+            {
+                Return (XSTA ())
             }
         }
     }
 
     Scope (_SB.PCI0.LPCB.EC0)
     {
-            OperationRegion (ERM2, EmbeddedControl, Zero, 0xFF)
-            Field (ERM2, ByteAcc, NoLock, Preserve)
-            {
-                Offset (0x89), 
-                BDC1,   8, 
-                BDC2,   8, 
-                Offset (0x8D), 
-                BFC1,   8, 
-                BFC2,   8, 
-                BRT1,   8, 
-                BRT2,   8, 
-                Offset (0x92), 
-                BME1,   8, 
-                BME2,   8, 
-                Offset (0x95), 
-                BDV1,   8, 
-                BDV2,   8, 
-                BCV1,   8, 
-                BCV2,   8, 
-                Offset (0x9B), 
-                BA01,   8, 
-                BA02,   8, 
-                BPR1,   8, 
-                BPR2,   8, 
-                BCR1,   8, 
-                BCR2,   8, 
-                BRC1,   8, 
-                BRC2,   8, 
-                BCC1,   8, 
-                BCC2,   8, 
-                BPV1,   8, 
-                BPV2,   8, 
-                BC01,   8, 
-                BC02,   8, 
-                BC03,   8, 
-                BC04,   8, 
-                BC05,   8, 
-                BC06,   8, 
-                Offset (0xAF), 
-                BA03,   8, 
-                BA04,   8, 
-                Offset (0xB3), 
-                MAX1,   8, 
-                MAX2,   8, 
-                Offset (0xB7), 
-                BST1,   8, 
-                BST2,   8, 
-                Offset (0xC9), 
-                BSN1,   8, 
-                BSN2,   8, 
-                BDA1,   8, 
-                BDA2,   8, 
-                Offset (0xDE), 
-                CCB1,   8, 
-                CCB2,   8, 
-                CBT1,   8, 
-                CBT2,   8, 
-                Offset (0xF9), 
-                ACP1,   8, 
-                ACP2,   8
-            }
+        OperationRegion (ERM2, EmbeddedControl, Zero, 0xFF)
+        Field (ERM2, ByteAcc, NoLock, Preserve)
+        {
+            Offset (0x89), 
+            BDC1,   8, 
+            BDC2,   8, 
+            Offset (0x8D), 
+            BFC1,   8, 
+            BFC2,   8, 
+            BRT1,   8, 
+            BRT2,   8, 
+            Offset (0x92), 
+            BME1,   8, 
+            BME2,   8, 
+            Offset (0x95), 
+            BDV1,   8, 
+            BDV2,   8, 
+            BC07,   8, 
+            BC08,   8, 
+            Offset (0x9B), 
+            BA01,   8, 
+            BA02,   8, 
+            BPR1,   8, 
+            BPR2,   8, 
+            BCR1,   8, 
+            BCR2,   8, 
+            BRC1,   8, 
+            BRC2,   8, 
+            BCC1,   8, 
+            BCC2,   8, 
+            BPV1,   8, 
+            BPV2,   8, 
+            BC01,   8, 
+            BC02,   8, 
+            BC03,   8, 
+            BC04,   8, 
+            BC05,   8, 
+            BC06,   8, 
+            Offset (0xAF), 
+            BA03,   8, 
+            BA04,   8, 
+            Offset (0xB3), 
+            MAX1,   8, 
+            MAX2,   8, 
+            Offset (0xB7), 
+            BST1,   8, 
+            BST2,   8, 
+            Offset (0xC9), 
+            BSN1,   8, 
+            BSN2,   8, 
+            BDA1,   8, 
+            BDA2,   8, 
+            Offset (0xDE), 
+            CCB1,   8, 
+            CCB2,   8, 
+            CBT1,   8, 
+            CBT2,   8, 
+            Offset (0xF9), 
+            ACP1,   8, 
+            ACP2,   8
+        }
 
-            Method (GACW, 0, NotSerialized)
+        Method (GACW, 0, NotSerialized)
+        {
+            If (_OSI ("Darwin"))
             {
-              If (_OSI ("Darwin"))
-              {
                 Local0 = Zero
                 Acquire (ECMX, 0xFFFF)
                 If (\_SB.PCI0.LPCB.EC0.ECRG)
@@ -182,17 +186,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
 
                 Release (ECMX)
                 Return (Local0)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XGAC())
-              } 
             }
-
-            Method (GBAW, 0, NotSerialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                Return (\_SB.PCI0.LPCB.EC0.XC12 ())
+            }
+        }
+
+        Method (GBAW, 0, NotSerialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Local0 = Zero
                 Acquire (ECMX, 0xFFFF)
                 If (\_SB.PCI0.LPCB.EC0.ECRG)
@@ -209,17 +213,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
 
                 Release (ECMX)
                 Return (Local0)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XGAB())
-              } 
             }
-
-            Method (BTIF, 1, Serialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                Return (\_SB.PCI0.LPCB.EC0.XC13 ())
+            }
+        }
+
+        Method (BTIF, 1, Serialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Local7 = (One << Arg0)
                 BTDR (One)
                 If ((BSTA (Local7) == 0x0F))
@@ -228,7 +232,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                 }
 
                 Acquire (BTMX, 0xFFFF)
-                Local0 = \_SB.PCI0.LPCB.EC0_.NGBF /* External reference */
+                Local0 = \_SB.PCI0.LPCB.EC0.NGBF /* External reference */
                 Release (BTMX)
                 If (((Local0 & Local7) == Zero))
                 {
@@ -264,17 +268,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                 NGBF &= ~Local7
                 Release (BTMX)
                 Return (Zero)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XTIF(Arg0))
-              }
             }
-
-            Method (BTST, 2, Serialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                Return (\_SB.PCI0.LPCB.EC0.XTIF (Arg0))
+            }
+        }
+
+        Method (BTST, 2, Serialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Local7 = (One << Arg0)
                 BTDR (One)
                 If ((BSTA (Local7) == 0x0F))
@@ -295,7 +299,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                     NGBT = 0xFF
                 }
 
-                Local0 = \_SB.PCI0.LPCB.EC0.NGBT
+                Local0 = \_SB.PCI0.LPCB.EC0.NGBT /* External reference */
                 Release (BTMX)
                 If (((Local0 & Local7) == Zero))
                 {
@@ -306,7 +310,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                 If (\_SB.PCI0.LPCB.EC0.ECRG)
                 {
                     BSEL = Arg0
-                    Local0 = \_SB.PCI0.LPCB.EC0.BST
+                    Local0 = \_SB.PCI0.LPCB.EC0.BST /* External reference */
                     Local3 = B1B2 (BPR1, BPR2)
                     DerefOf (NBST [Arg0]) [0x02] = B1B2 (BRC1, BRC2)
                     DerefOf (NBST [Arg0]) [0x03] = B1B2 (BPV1, BPV2)
@@ -357,17 +361,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                 NGBT &= ~Local7
                 Release (BTMX)
                 Return (Zero)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XTST(Arg0, Arg1))
-              }
             }
-
-            Method (ITLB, 0, NotSerialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                Return (\_SB.PCI0.LPCB.EC0.XTST (Arg0, Arg1))
+            }
+        }
+
+        Method (ITLB, 0, NotSerialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Local0 = (B1B2 (BFC1, BFC2) * NLB1) /* External reference */
                 Local4 = (Local0 / 0x64)
                 Divide ((Local4 + 0x09), 0x0A, Local0, Local1)
@@ -379,17 +383,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                     LB1 = Local1
                     LB2 = Local2
                 }
-              }
-              Else
-              {
-                \_SB.PCI0.LPCB.EC0.XITL()
-              } 
             }
-
-            Method (GBTI, 1, NotSerialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                \_SB.PCI0.LPCB.EC0.XITL ()
+            }
+        }
+
+        Method (GBTI, 1, NotSerialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Debug = "Enter getbattinfo"
                 Acquire (ECMX, 0xFFFF)
                 If (\_SB.PCI0.LPCB.EC0.ECRG)
@@ -443,8 +447,8 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                         DerefOf (Local0 [One]) [0x12] = B1B2 (BST1, BST2)
                         DerefOf (Local0 [One]) [0x13] = (B1B2 (BST1, BST2) >> 
                             0x08)
-                        DerefOf (Local0 [One]) [0x14] = B1B2 (BCV1, BCV2)
-                        DerefOf (Local0 [One]) [0x15] = (B1B2 (BCV1, BCV2) >> 
+                        DerefOf (Local0 [One]) [0x14] = B1B2 (BC07, BC08)
+                        DerefOf (Local0 [One]) [0x15] = (B1B2 (BC07, BC08) >> 
                             0x08)
                         DerefOf (Local0 [One]) [0x16] = B1B2 (BC01, BC02)
                         DerefOf (Local0 [One]) [0x17] = (B1B2 (BC01, BC02) >> 
@@ -478,10 +482,10 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                         BMAD = B1B2 (BDA1, BDA2)
                         Local2 += 0x02
                         CreateField (DerefOf (Local0 [One]), (Local2 * 0x08), 0x10, BCCU)
-                        BCCU = \_SB.PCI0.LPCB.EC0.BRCC
+                        BCCU = \_SB.PCI0.LPCB.EC0.BRCC /* External reference */
                         Local2 += 0x02
                         CreateField (DerefOf (Local0 [One]), (Local2 * 0x08), 0x10, BCVO)
-                        BCVO = \_SB.PCI0.LPCB.EC0.BRCV
+                        BCVO = \_SB.PCI0.LPCB.EC0.BRCV /* External reference */
                         Local2 += 0x02
                         CreateField (DerefOf (Local0 [One]), (Local2 * 0x08), 0x10, BAVC)
                         Local1 = B1B2 (BCR1, BCR2)
@@ -506,7 +510,7 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
                         ATTF = B1B2 (BA03, BA04)
                         Local2 += 0x02
                         CreateField (DerefOf (Local0 [One]), (Local2 * 0x08), 0x08, NOBS)
-                        NOBS = \_SB.PCI0.LPCB.EC0.BATN
+                        NOBS = \_SB.PCI0.LPCB.EC0.BATN /* External reference */
                     }
                     Else
                     {
@@ -526,17 +530,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
 
                 Release (ECMX)
                 Return (Local0)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XBTI(Arg0))
-              }
             }
-
-            Method (GBTC, 0, NotSerialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                Return (\_SB.PCI0.LPCB.EC0.XBTI (Arg0))
+            }
+        }
+
+        Method (GBTC, 0, NotSerialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Debug = "Enter GetBatteryControl"
                 Acquire (ECMX, 0xFFFF)
                 If (\_SB.PCI0.LPCB.EC0.ECRG)
@@ -621,17 +625,17 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
 
                 Release (ECMX)
                 Return (Local0)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XGBU())
-              } 
             }
-
-            Method (SBTC, 3, NotSerialized)
+            Else
             {
-              If (_OSI ("Darwin"))
-              {
+                Return (\_SB.PCI0.LPCB.EC0.XGBU ())
+            }
+        }
+
+        Method (SBTC, 3, NotSerialized)
+        {
+            If (_OSI ("Darwin"))
+            {
                 Debug = "Enter SetBatteryControl"
                 Debug = Arg0
                 Debug = Arg1
@@ -823,35 +827,36 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BAT0", 0x00000000)
 
                 Release (ECMX)
                 Return (Local4)
-              }
-              Else
-              {
-                Return (\_SB.PCI0.LPCB.EC0.XSBT(Arg0, Arg1, Arg2))
-              }
             }
+            Else
+            {
+                Return (\_SB.PCI0.LPCB.EC0.XSBT (Arg0, Arg1, Arg2))
+            }
+        }
     }
 
     Scope (_TZ)
     {
         Method (GCGC, 0, Serialized)
         {
-          If (_OSI ("Darwin"))
-          { 
-            Name (LTMP, Buffer (0x02){})
-            If (\_SB.PCI0.LPCB.EC0.ECRG)
+            If (_OSI ("Darwin"))
             {
-                Acquire (\_SB.PCI0.LPCB.EC0.ECMX, 0xFFFF)
-                LTMP = B1B2 (\_SB.PCI0.LPCB.EC0.BPR1, \_SB.PCI0.LPCB.EC0.BPR2)
-                Release (\_SB.PCI0.LPCB.EC0.ECMX)
-            }
+                Name (LTMP, Buffer (0x02){})
+                If (\_SB.PCI0.LPCB.EC0.ECRG)
+                {
+                    Acquire (\_SB.PCI0.LPCB.EC0.ECMX, 0xFFFF)
+                    LTMP = B1B2 (\_SB.PCI0.LPCB.EC0.BPR1, \_SB.PCI0.LPCB.EC0.BPR2)
+                    Release (\_SB.PCI0.LPCB.EC0.ECMX)
+                }
 
-            Return (LTMP) /* \_TZ_.GCGC.LTMP */
-          }
-          Else
-          {
-            Return (\_TZ.XGCG())
-          } 
+                Return (LTMP) /* \_TZ_.GCGC.LTMP */
+            }
+            Else
+            {
+                Return (\_TZ.XGCG ())
+            }
         }
     }
 }
+
 
