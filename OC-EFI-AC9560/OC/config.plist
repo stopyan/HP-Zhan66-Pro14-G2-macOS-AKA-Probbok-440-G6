@@ -149,32 +149,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>PNLF to XNLF</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>UE5MRg==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WE5MRg==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>ACEL._STA to XSTA</string>
 				<key>Count</key>
 				<integer>1</integer>
@@ -201,13 +175,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>GACW to XGAC</string>
+				<string>GACW to XC12</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>FCVHQQBw</data>
+				<data>R0FDVwBw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -215,7 +189,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>FCVYRwBw</data>
+				<data>WEMxMgBw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -227,13 +201,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>GBAW  to XGAB</string>
+				<string>GBAW  to XC13</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>RQRHQgBw</data>
+				<data>R0JBVwBw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -241,7 +215,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>RQRYRwBw</data>
+				<data>WEMxMwBw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -450,6 +424,32 @@
 				<data></data>
 				<key>Replace</key>
 				<data>QQCkCgAUM18=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PNLF to XNLF</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>UE5MRg==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WE5MRg==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -931,6 +931,38 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>RtWlanU.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RtWlanU</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>RtWlanU1827.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RtWlanU1827</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
