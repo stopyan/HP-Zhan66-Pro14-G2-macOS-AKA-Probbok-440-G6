@@ -18,7 +18,7 @@
 
 ## 失效硬件
 
-- ~~SD Card~~ （已屏蔽）
+- ~~SD Card Reader~~ （已屏蔽）
 - ~~Nvidia MX250~~ （已屏蔽）
 - ~~Fingerprint sensor~~ （已屏蔽）
 
