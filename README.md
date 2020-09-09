@@ -38,6 +38,7 @@
    - [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
    - [itlwm](https://github.com/zxystd/itlwm)
    - [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware)
+   - [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
    - [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover)
    - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
    - [One-Key-UnlockTDP](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/unlockTDP)
