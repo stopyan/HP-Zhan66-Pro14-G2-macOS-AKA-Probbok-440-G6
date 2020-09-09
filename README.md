@@ -26,19 +26,12 @@
 
 -  OpenCorePkg
    - 参阅：[acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
-
--  CloverBootloader
-   - 参阅：[CloverHackyColor/CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
--  OcQuirks
-   -  参阅：[ReddestDream/OcQuirks](https://github.com/ReddestDream/OcQuirks)
 -  Docs
    -  参阅：[OpenCore 简体中文参考手册](https://oc.skk.moe/)
-   -  参阅：[使用 OpenCore 引导黑苹果](https://blog.xjn819.com/?p=543)
    -  参阅：[daliansky/OC-little](https://github.com/daliansky/OC-little)
    -  参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/undefined/65204.html)
    -  参阅：[macOS 常用命令](https://chiccheung.gitee.io/undefined/5624.html)
 -  Tools
-   - [Sukka/Kexts](https://kext.skk.moe/)
    - [VoodooI2C/VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
    - [Sniki/EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
    - [NoTouchID](https://github.com/al3xtjames/NoTouchID)
@@ -52,7 +45,6 @@
    - [ALCPlugFix](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/ALCPlugFix)
    - [HackinTool](https://kext.skk.moe/Software/HackinTool/)
    - [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree)
-   - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
    - [acidanthera/MaciASL](https://github.com/acidanthera/MaciASL)
    - [Hex Fiend](http://ridiculousfish.com/hexfiend/)
    - [IORegistryExplorer](https://github.com/vulgo/IORegistryExplorer)
