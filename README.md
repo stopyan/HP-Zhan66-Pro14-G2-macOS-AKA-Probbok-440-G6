@@ -29,8 +29,8 @@
 -  Docs
    -  参阅：[OpenCore 简体中文参考手册](https://oc.skk.moe/)
    -  参阅：[daliansky/OC-little](https://github.com/daliansky/OC-little)
-   -  参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/undefined/65204.html)
-   -  参阅：[macOS 常用命令](https://chiccheung.gitee.io/undefined/5624.html)
+   -  参阅：[使用 OpenCore 在线安装 macOS](https://chiccheung.gitee.io/posts/2/)
+   -  参阅：[macOS 常用命令](https://chiccheung.gitee.io/posts/3/)
 -  Tools
    - [VoodooI2C/VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
    - [Sniki/EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
