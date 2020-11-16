@@ -1634,7 +1634,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02821500C02821500QXJH4RCBQXJH4RCB</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
@@ -1646,7 +1646,7 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WR00HJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
 			<string></string>
 		</dict>
