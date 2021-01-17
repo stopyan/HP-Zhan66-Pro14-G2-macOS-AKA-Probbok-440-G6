@@ -7,14 +7,14 @@
 | 规格      | 详细信息 |
 | -------- | ------- |
 | 电脑型号 | HP-Zhan66-Pro14-G2 |
-| 处理器   | Intel i5-8265U |
-| 内存     | Kingston 8GB DDR4 2400MHz |
-| 硬盘     | SK hynix 512GB NVMExpress |
+| 处理器   | Intel i7-8565U |
+| 内存     | Samsung 8GB * 2 DDR4 2400MHz |
+| 硬盘     | 512GB NVMExpress (屏蔽 Blocked) + 1024GB SATA AHCI  |
 | 集成显卡  | Intel UHD Graphics 620 |
-| 独立显卡  | Nvidia MX250 |
+| 独立显卡  | Nvidia MX250 (屏蔽 Blocked) |
 | 显示器    | 内建显示器 13.9 - 英寸 |
 | 声卡     | Realtek ALC236 |
-| 网卡     | Intel AC9560 |
+| 网卡     | Dell DW1830 |
 
 ## 失效硬件
 
