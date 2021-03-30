@@ -1,7 +1,9 @@
 #!/bin/sh
 
-sudo mount -uw /
-sudo killall Finder
+#sudo mount -uw /
+#sudo killall Finder
+#big sur系统以上无效
+
 sudo mkdir -p /usr/local/lib
 sudo mkdir -p /usr/local/share
 
