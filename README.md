@@ -1,9 +1,9 @@
 # HP-Zhan66-Pro14-G2-macOS
 
 [The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore configuration files for HP-Zhan66-Pro14-G2. 
-个人自用，Mac OS安装在SATA硬盘（东芝BG3固态硬盘唤醒后掉电）
-网卡已更换DW1830
-
+个人自用，Mac OS安装在SATA硬盘（启动东芝BG3固态硬盘会导致唤醒后掉电）；
+网卡已更换DW1830；
+部分战66二代13寸机型可以适用；已知战66二代15寸无法直接使用，故障未知。
 ## 电脑配置
 
 | 规格      | 详细信息 |
