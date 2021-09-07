@@ -11,7 +11,7 @@
 | 电脑型号 | HP-Zhan66-Pro14-G2 |
 | 处理器   | Intel i7-8565U |
 | 内存     | Samsung 8GB * 2 DDR4 2400MHz |
-| 硬盘     | 512GB NVMExpress (屏蔽 Blocked) + 1024GB SATA AHCI  |
+| 硬盘     | 1024GB NVMExpress  + 1024GB SATA AHCI  |
 | 集成显卡  | Intel UHD Graphics 620 |
 | 独立显卡  | Nvidia MX250 (屏蔽 Blocked) |
 | 显示器    | 内建显示器 13.9 - 英寸 |
