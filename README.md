@@ -2,7 +2,7 @@
 
 [The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore configuration files for HP-Zhan66-Pro14-G2. 
 个人自用，Mac OS安装在SATA硬盘（启动东芝BG3固态硬盘会导致唤醒后掉电）；
-网卡已更换DW1830；
+网卡已更换Intel AX210 （itlwm限定系统版本Monterey）， 非相同网卡相同系统版本请自行调节；
 部分战66二代13寸机型可以适用；已知战66二代15寸无法直接使用，故障未知。
 ## 电脑配置
 
@@ -16,7 +16,7 @@
 | 独立显卡  | Nvidia MX250 (屏蔽 Blocked) |
 | 显示器    | 内建显示器 13.9 - 英寸 |
 | 声卡     | Realtek ALC236 |
-| 网卡     | Dell DW1830 |
+| 网卡     | Intel AX210 |
 
 ## 失效硬件
 
