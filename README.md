@@ -1,6 +1,8 @@
 # HP-Zhan66-Pro14-G2-macOS
 
 [The repository](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS) provides OpenCore configuration files for HP-Zhan66-Pro14-G2. 
+
+已换机 最后版本为Opencore 0.8.4正式版
 个人自用，Mac OS安装在SATA硬盘（启动东芝BG3固态硬盘会导致唤醒后掉电）；
 网卡已更换Intel AX210 （itlwm限定系统版本Monterey）， 非相同网卡相同系统版本请自行调节；
 部分战66二代13寸机型可以适用；已知战66二代15寸无法直接使用，故障未知。
